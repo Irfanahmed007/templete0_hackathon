@@ -13,8 +13,8 @@ const Navbar = () => {
         <ul className="hidden md:flex space-x-8 text-black font-medium">
           <li className="hover:text-gray-600 cursor-pointer"><Link href="/">Home</Link></li>
           <li className="hover:text-gray-600 cursor-pointer"><Link href="/shop">Shop</Link></li>
-          <li className="hover:text-gray-600 cursor-pointer">About</li>
-          <li className="hover:text-gray-600 cursor-pointer">Contact</li>
+          <li className="hover:text-gray-600 cursor-pointer"><Link href="/about">About</Link></li>
+          <li className="hover:text-gray-600 cursor-pointer"><Link href="/contact">Contact</Link></li>
         </ul>
 
         {/* Right Section - Icons */}
